@@ -1,3 +1,7 @@
+// Variables for pagination
+let currentPage = 1;
+const itemsPerPage = 15;
+
 // Function to handle download when the button is clicked
 function handleDownloadClick(event) {
     const talkCard = event.target.closest('.talk-card');
@@ -12,7 +16,7 @@ function handleDownloadClick(event) {
         return;
     }
 
-    const name = nameElement.textContent.trim();  // Speaker name
+    const name = nameElement.textContent.trim(); // Speaker name
 
     // Checkboxes for GC and BYU
     const gcDownloadCheckbox = talkCard.querySelector("#gc_download");
@@ -35,20 +39,9 @@ function handleDownloadClick(event) {
                     console.log(`No GC links found for ${name}`);
                 }
 
-                // If BYU download is also checked, add those links
+                // If BYU download is also checked, fetch and open the speaker's URL
                 if (byuDownload) {
-                    fetch('BYU_download_links.json')
-                        .then(response => response.json())
-                        .then(data => {
-                            if (data[name]) {
-                                downloadLinks = downloadLinks.concat(data[name]);
-                            } else {
-                                console.log(`No BYU links found for ${name}`);
-                            }
-                            // Trigger the download action for all the links
-                            triggerDownload(downloadLinks);
-                        })
-                        .catch(error => console.error('Error fetching BYU links:', error));
+                    fetchAndOpenBYUSpeakerUrl(name, downloadLinks);
                 } else {
                     // Trigger download for GC links
                     triggerDownload(downloadLinks);
@@ -56,20 +49,9 @@ function handleDownloadClick(event) {
             })
             .catch(error => console.error('Error fetching GC links:', error));
     }
-    // If BYU download is checked but GC isn't, fetch and trigger download for BYU only
+    // If BYU download is checked but GC isn't, fetch and open the speaker's URL
     else if (byuDownload) {
-        fetch('BYU_download_links.json')
-            .then(response => response.json())
-            .then(data => {
-                if (data[name]) {
-                    downloadLinks = data[name];
-                    // Trigger download for BYU links
-                    triggerDownload(downloadLinks);
-                } else {
-                    console.log(`No BYU links found for ${name}`);
-                }
-            })
-            .catch(error => console.error('Error fetching BYU links:', error));
+        fetchAndOpenBYUSpeakerUrl(name);
     } else {
         console.log("No download option selected.");
     }
@@ -79,25 +61,39 @@ function handleDownloadClick(event) {
     byuDownloadCheckbox.checked = false;
 }
 
-// Function to trigger the download action for the collected links
+// Function to fetch and open the BYU speaker URL
+function fetchAndOpenBYUSpeakerUrl(name, gcLinks = []) {
+    fetch('json/BYU_speaker_links.json')
+        .then(response => response.json())
+        .then(data => {
+            const speakerData = data.find(entry => entry.name === name);
+            if (speakerData && speakerData.speaker_url) {
+                // Open the speaker URL in a new tab
+                window.open(speakerData.speaker_url, '_blank');
+            } else {
+                console.log(`No BYU speaker URL found for ${name}`);
+            }
+
+            // If there are GC links, trigger their download
+            if (gcLinks.length > 0) {
+                triggerDownload(gcLinks);
+            }
+        })
+        .catch(error => console.error('Error fetching BYU speaker links:', error));
+}
+
+// Function to trigger the download action for the collected GC links
 function triggerDownload(links) {
     if (links.length === 0) {
         console.error("No links available for download.");
         return;
     }
 
-    // Open each URL in a new tab (or you can trigger downloads programmatically)
+    // Open each URL in a new tab
     links.forEach(link => {
         window.open(link, '_blank');
     });
 }
-
-// Event listener for download button click
-document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.download-button').forEach(button => {
-        button.addEventListener('click', handleDownloadClick);
-    });
-});
 
 // Function to load "Current" members from the JSON file
 function loadCurrentMembers() {
@@ -109,7 +105,7 @@ function loadCurrentMembers() {
         .catch(error => console.error('Error loading current members:', error));
 }
 
-// Function to load and sort all General Authorities alphabetically by last name
+// Function to load and sort all General Authorities alphabetically by last name, with pagination
 function loadAlphabeticalMembers() {
     fetch('json/___all2_GAs+ap+pr_with_BYU.json')
         .then(response => response.json())
@@ -119,9 +115,48 @@ function loadAlphabeticalMembers() {
                 const lastNameB = b.name.split(" ").pop().toLowerCase();
                 return lastNameA.localeCompare(lastNameB);
             });
-            displayMembers(data, false);
+            displayPaginatedMembers(data);
         })
         .catch(error => console.error('Error loading all General Authorities:', error));
+}
+
+// Function to display members with pagination
+function displayPaginatedMembers(members) {
+    const totalPages = Math.ceil(members.length / itemsPerPage);
+
+    // Get the current page's members
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const currentMembers = members.slice(startIndex, endIndex);
+
+    displayMembers(currentMembers, false);
+
+    // Create pagination controls
+    const paginationContainer = document.getElementById('pagination-container') || document.createElement('div');
+    paginationContainer.id = 'pagination-container';
+    paginationContainer.innerHTML = '';
+
+    if (currentPage > 1) {
+        const prevButton = document.createElement('button');
+        prevButton.textContent = 'Previous';
+        prevButton.addEventListener('click', () => {
+            currentPage--;
+            displayPaginatedMembers(members);
+        });
+        paginationContainer.appendChild(prevButton);
+    }
+
+    if (currentPage < totalPages) {
+        const nextButton = document.createElement('button');
+        nextButton.textContent = 'Next';
+        nextButton.addEventListener('click', () => {
+            currentPage++;
+            displayPaginatedMembers(members);
+        });
+        paginationContainer.appendChild(nextButton);
+    }
+
+    document.querySelector('.main_container').appendChild(paginationContainer);
 }
 
 // Function to load and display prophets from the JSON file

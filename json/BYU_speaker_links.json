@@ -1,0 +1,986 @@
+[
+    {
+        "name": "Angel Abrea",
+        "speaker_url": "https://speeches.byu.edu/speakers/angel-abrea/"
+    },
+    {
+        "name": "Neil L. Andersen",
+        "speaker_url": "https://speeches.byu.edu/speakers/neil-l-andersen/"
+    },
+    {
+        "name": "Wilford W. Andersen",
+        "speaker_url": "https://speeches.byu.edu/speakers/wilford-w-andersen/"
+    },
+    {
+        "name": "Joseph Anderson",
+        "speaker_url": "https://speeches.byu.edu/speakers/joseph-anderson/"
+    },
+    {
+        "name": "Carlos E. Asay",
+        "speaker_url": "https://speeches.byu.edu/speakers/carlos-e-asay/"
+    },
+    {
+        "name": "Brian K. Ashton",
+        "speaker_url": "https://speeches.byu.edu/speakers/brian-k-ashton/"
+    },
+    {
+        "name": "Marvin J. Ashton",
+        "speaker_url": "https://speeches.byu.edu/speakers/marvin-j-ashton/"
+    },
+    {
+        "name": "Robert L. Backman",
+        "speaker_url": "https://speeches.byu.edu/speakers/robert-l-backman/"
+    },
+    {
+        "name": "M. Russell Ballard",
+        "speaker_url": "https://speeches.byu.edu/speakers/m-russell-ballard/"
+    },
+    {
+        "name": "Ben B. Banks",
+        "speaker_url": "https://speeches.byu.edu/speakers/ben-b-banks/"
+    },
+    {
+        "name": "W. Mark Bassett",
+        "speaker_url": "https://speeches.byu.edu/speakers/w-mark-bassett/"
+    },
+    {
+        "name": "Merrill J. Bateman",
+        "speaker_url": "https://speeches.byu.edu/speakers/merrill-j-and-marilyn-s-bateman/"
+    },
+    {
+        "name": "David L. Beck",
+        "speaker_url": "https://speeches.byu.edu/speakers/david-l-beck/"
+    },
+    {
+        "name": "Julie B. Beck",
+        "speaker_url": "https://speeches.byu.edu/speakers/julie-b-beck/"
+    },
+    {
+        "name": "David A. Bednar",
+        "speaker_url": "https://speeches.byu.edu/speakers/david-a-bednar/"
+    },
+    {
+        "name": "Randall K. Bennett",
+        "speaker_url": "https://speeches.byu.edu/speakers/randall-k-bennett/"
+    },
+    {
+        "name": "Ezra Taft Benson",
+        "speaker_url": "https://speeches.byu.edu/speakers/ezra-taft-benson/"
+    },
+    {
+        "name": "Jean B. Bingham",
+        "speaker_url": "https://speeches.byu.edu/speakers/jean-b-bingham/"
+    },
+    {
+        "name": "Shayne M. Bowen",
+        "speaker_url": "https://speeches.byu.edu/speakers/shayne-m-bowen/"
+    },
+    {
+        "name": "William R. Bradford",
+        "speaker_url": "https://speeches.byu.edu/speakers/william-r-bradford/"
+    },
+    {
+        "name": "Mark A. Bragg",
+        "speaker_url": "https://speeches.byu.edu/speakers/mark-a-bragg/"
+    },
+    {
+        "name": "Ted E. Brewerton",
+        "speaker_url": "https://speeches.byu.edu/speakers/ted-e-brewerton/"
+    },
+    {
+        "name": "M. Joseph Brough",
+        "speaker_url": "https://speeches.byu.edu/speakers/m-joseph-brough/"
+    },
+    {
+        "name": "Monte J. Brough",
+        "speaker_url": "https://speeches.byu.edu/speakers/monte-j-brough/"
+    },
+    {
+        "name": "Hugh B. Brown",
+        "speaker_url": "https://speeches.byu.edu/speakers/hugh-b-brown/"
+    },
+    {
+        "name": "Victor L. Brown",
+        "speaker_url": "https://speeches.byu.edu/speakers/victor-l-brown/"
+    },
+    {
+        "name": "Tracy Y. Browning",
+        "speaker_url": "https://speeches.byu.edu/speakers/tracy-y-browning/"
+    },
+    {
+        "name": "L. Todd Budge",
+        "speaker_url": "https://speeches.byu.edu/speakers/l-todd-budge/"
+    },
+    {
+        "name": "H. David Burton",
+        "speaker_url": "https://speeches.byu.edu/speakers/h-david-burton/"
+    },
+    {
+        "name": "Theodore M. Burton",
+        "speaker_url": "https://speeches.byu.edu/speakers/theodore-m-burton/"
+    },
+    {
+        "name": "F. Enzio Busche",
+        "speaker_url": "https://speeches.byu.edu/speakers/f-enzio-busche/"
+    },
+    {
+        "name": "Douglas L. Callister",
+        "speaker_url": "https://speeches.byu.edu/speakers/douglas-l-callister/"
+    },
+    {
+        "name": "Tad R. Callister",
+        "speaker_url": "https://speeches.byu.edu/speakers/tad-r-callister/"
+    },
+    {
+        "name": "Elaine A. Cannon",
+        "speaker_url": "https://speeches.byu.edu/speakers/elaine-a-cannon/"
+    },
+    {
+        "name": "George I. Cannon",
+        "speaker_url": "https://speeches.byu.edu/speakers/george-i-cannon/"
+    },
+    {
+        "name": "Craig A. Cardon",
+        "speaker_url": "https://speeches.byu.edu/speakers/craig-a-cardon/"
+    },
+    {
+        "name": "John K. Carmack",
+        "speaker_url": "https://speeches.byu.edu/speakers/john-k-carmack/"
+    },
+    {
+        "name": "Matthew L. Carpenter",
+        "speaker_url": "https://speeches.byu.edu/speakers/matthew-l-carpenter/"
+    },
+    {
+        "name": "G\u00e9rald Causs\u00e9",
+        "speaker_url": "https://speeches.byu.edu/speakers/gerald-causse/"
+    },
+    {
+        "name": "Sheldon F. Child",
+        "speaker_url": "https://speeches.byu.edu/speakers/sheldon-f-child/"
+    },
+    {
+        "name": "Craig C. Christensen",
+        "speaker_url": "https://speeches.byu.edu/speakers/craig-c-christensen/"
+    },
+    {
+        "name": "Joe J. Christensen",
+        "speaker_url": "https://speeches.byu.edu/speakers/joe-j-christensen/"
+    },
+    {
+        "name": "D. Todd Christofferson",
+        "speaker_url": "https://speeches.byu.edu/speakers/d-todd-christofferson/"
+    },
+    {
+        "name": "Kim B. Clark",
+        "speaker_url": "https://speeches.byu.edu/speakers/kim-b-clark/"
+    },
+    {
+        "name": "Don R. Clarke",
+        "speaker_url": "https://speeches.byu.edu/speakers/don-r-clarke/"
+    },
+    {
+        "name": "J. Richard Clarke",
+        "speaker_url": "https://speeches.byu.edu/speakers/j-richard-clarke/"
+    },
+    {
+        "name": "L. Whitney Clayton",
+        "speaker_url": "https://speeches.byu.edu/speakers/l-whitney-clayton/"
+    },
+    {
+        "name": "Weatherford T. Clayton",
+        "speaker_url": "https://speeches.byu.edu/speakers/weatherford-t-clayton/"
+    },
+    {
+        "name": "Spencer J. Condie",
+        "speaker_url": "https://speeches.byu.edu/speakers/spencer-j-condie/"
+    },
+    {
+        "name": "Carl B. Cook",
+        "speaker_url": "https://speeches.byu.edu/speakers/carl-b-cook/"
+    },
+    {
+        "name": "Gene R. Cook",
+        "speaker_url": "https://speeches.byu.edu/speakers/gene-r-cook/"
+    },
+    {
+        "name": "Quentin L. Cook",
+        "speaker_url": "https://speeches.byu.edu/speakers/quentin-l-cook/"
+    },
+    {
+        "name": "Lawrence E. Corbridge",
+        "speaker_url": "https://speeches.byu.edu/speakers/lawrence-e-corbridge/"
+    },
+    {
+        "name": "Bonnie H. Cordon",
+        "speaker_url": "https://speeches.byu.edu/speakers/bonnie-h-cordon/"
+    },
+    {
+        "name": "Claudio R. M. Costa",
+        "speaker_url": "https://speeches.byu.edu/speakers/claudio-r-m-costa/"
+    },
+    {
+        "name": "Michelle D. Craig",
+        "speaker_url": "https://speeches.byu.edu/speakers/michelle-d-craig/"
+    },
+    {
+        "name": "Rebecca L. Craven",
+        "speaker_url": "https://speeches.byu.edu/speakers/rebecca-l-craven/"
+    },
+    {
+        "name": "James A. Cullimore",
+        "speaker_url": "https://speeches.byu.edu/speakers/james-cullimore/"
+    },
+    {
+        "name": "LeGrand R. Curtis",
+        "speaker_url": "https://speeches.byu.edu/speakers/legrand-r-curtis-jr/"
+    },
+    {
+        "name": "Derek A. Cuthbert",
+        "speaker_url": "https://speeches.byu.edu/speakers/derek-a-cuthbert/"
+    },
+    {
+        "name": "Elaine S. Dalton",
+        "speaker_url": "https://speeches.byu.edu/speakers/elaine-s-dalton/"
+    },
+    {
+        "name": "Dean M. Davies",
+        "speaker_url": "https://speeches.byu.edu/speakers/dean-m-davies/"
+    },
+    {
+        "name": "Royden G. Derrick",
+        "speaker_url": "https://speeches.byu.edu/speakers/royden-g-derrick/"
+    },
+    {
+        "name": "Sheri L. Dew",
+        "speaker_url": "https://speeches.byu.edu/speakers/sheri-l-dew/"
+    },
+    {
+        "name": "Ann M. Dibb",
+        "speaker_url": "https://speeches.byu.edu/speakers/ann-m-dibb/"
+    },
+    {
+        "name": "Charles A. Didier",
+        "speaker_url": "https://speeches.byu.edu/speakers/charles-a-didier/"
+    },
+    {
+        "name": "Loren C. Dunn",
+        "speaker_url": "https://speeches.byu.edu/speakers/loren-c-dunn/"
+    },
+    {
+        "name": "Michael A. Dunn",
+        "speaker_url": "https://speeches.byu.edu/speakers/michael-a-dunn/"
+    },
+    {
+        "name": "Paul H. Dunn",
+        "speaker_url": "https://speeches.byu.edu/speakers/paul-h-dunn/"
+    },
+    {
+        "name": "G. Homer Durham",
+        "speaker_url": "https://speeches.byu.edu/speakers/g-homer-durham/"
+    },
+    {
+        "name": "Alvin R. Dyer",
+        "speaker_url": "https://speeches.byu.edu/speakers/alvin-r-dyer/"
+    },
+    {
+        "name": "Richard C. Edgley",
+        "speaker_url": "https://speeches.byu.edu/speakers/richard-c-edgley/"
+    },
+    {
+        "name": "Stanley G. Ellis",
+        "speaker_url": "https://speeches.byu.edu/speakers/stanley-g-ellis/"
+    },
+    {
+        "name": "Cheryl A. Esplin",
+        "speaker_url": "https://speeches.byu.edu/speakers/cheryl-a-esplin/"
+    },
+    {
+        "name": "Sharon Eubank",
+        "speaker_url": "https://speeches.byu.edu/speakers/sharon-eubank/"
+    },
+    {
+        "name": "David F. Evans",
+        "speaker_url": "https://speeches.byu.edu/speakers/david-f-evans/"
+    },
+    {
+        "name": "Richard L. Evans",
+        "speaker_url": "https://speeches.byu.edu/speakers/richard-l-evans/"
+    },
+    {
+        "name": "Henry B. Eyring",
+        "speaker_url": "https://speeches.byu.edu/speakers/henry-b-eyring/"
+    },
+    {
+        "name": "James E. Faust",
+        "speaker_url": "https://speeches.byu.edu/speakers/james-e-faust/"
+    },
+    {
+        "name": "Vaughn J. Featherstone",
+        "speaker_url": "https://speeches.byu.edu/speakers/vaughn-j-featherstone/"
+    },
+    {
+        "name": "Bradley D. Foster",
+        "speaker_url": "https://speeches.byu.edu/speakers/bradley-d-forster/"
+    },
+    {
+        "name": "Addie Fuhriman",
+        "speaker_url": "https://speeches.byu.edu/speakers/addie-fuhriman/"
+    },
+    {
+        "name": "Ruth H. Funk",
+        "speaker_url": "https://speeches.byu.edu/speakers/ruth-h-funk/"
+    },
+    {
+        "name": "J. Thomas Fyans",
+        "speaker_url": "https://speeches.byu.edu/speakers/j-thomas-fyans/"
+    },
+    {
+        "name": "Jack N. Gerard",
+        "speaker_url": "https://speeches.byu.edu/speakers/jack-n-gerard/"
+    },
+    {
+        "name": "Francis M. Gibbons",
+        "speaker_url": "https://speeches.byu.edu/speakers/francis-m-gibbons/"
+    },
+    {
+        "name": "Larry M. Gibson",
+        "speaker_url": "https://speeches.byu.edu/speakers/larry-m-gibson/"
+    },
+    {
+        "name": "Clark G. Gilbert",
+        "speaker_url": "https://speeches.byu.edu/speakers/clark-g-gilbert/"
+    },
+    {
+        "name": "Carlos A. Godoy",
+        "speaker_url": "https://speeches.byu.edu/speakers/carlos-a-godoy/"
+    },
+    {
+        "name": "Christoffel Golden",
+        "speaker_url": "https://speeches.byu.edu/speakers/christoffel-golden-jr/"
+    },
+    {
+        "name": "Gerrit W. Gong",
+        "speaker_url": "https://speeches.byu.edu/speakers/gerrit-w-gong/"
+    },
+    {
+        "name": "Walter F. Gonz\u00e1lez",
+        "speaker_url": "https://speeches.byu.edu/speakers/walter-f-gonzalez/"
+    },
+    {
+        "name": "John H. Groberg",
+        "speaker_url": "https://speeches.byu.edu/speakers/john-h-groberg/"
+    },
+    {
+        "name": "Bruce C. Hafen",
+        "speaker_url": "https://speeches.byu.edu/speakers/bruce-c-hafen/"
+    },
+    {
+        "name": "David B. Haight",
+        "speaker_url": "https://speeches.byu.edu/speakers/david-b-haight/"
+    },
+    {
+        "name": "Robert D. Hales",
+        "speaker_url": "https://speeches.byu.edu/speakers/robert-d-hales/"
+    },
+    {
+        "name": "Donald L. Hallstrom",
+        "speaker_url": "https://speeches.byu.edu/speakers/donald-l-hallstrom/"
+    },
+    {
+        "name": "Kevin S. Hamilton",
+        "speaker_url": "https://speeches.byu.edu/speakers/kevin-s-hamilton/"
+    },
+    {
+        "name": "F. Melvin Hammond",
+        "speaker_url": "https://speeches.byu.edu/speakers/f-melvin-hammond/"
+    },
+    {
+        "name": "Marion D. Hanks",
+        "speaker_url": "https://speeches.byu.edu/speakers/marion-d-hanks/"
+    },
+    {
+        "name": "W. Eugene Hansen",
+        "speaker_url": "https://speeches.byu.edu/speakers/w-eugene-hansen/"
+    },
+    {
+        "name": "Robert B. Harbertson",
+        "speaker_url": "https://speeches.byu.edu/speakers/robert-b-harbertson/"
+    },
+    {
+        "name": "Allen D. Haynie",
+        "speaker_url": "https://speeches.byu.edu/speakers/allen-d-haynie/"
+    },
+    {
+        "name": "Harold G. Hillam",
+        "speaker_url": "https://speeches.byu.edu/speakers/harold-g-hillam/"
+    },
+    {
+        "name": "Gordon B. Hinckley",
+        "speaker_url": "https://speeches.byu.edu/speakers/gordon-b-hinckley/"
+    },
+    {
+        "name": "Richard G. Hinckley",
+        "speaker_url": "https://speeches.byu.edu/speakers/richard-g-hinckley/"
+    },
+    {
+        "name": "Jeffrey R. Holland",
+        "speaker_url": "https://speeches.byu.edu/speakers/jeffrey-r-and-patricia-t-holland/"
+    },
+    {
+        "name": "Douglas D. Holmes",
+        "speaker_url": "https://speeches.byu.edu/speakers/douglas-d-holmes/"
+    },
+    {
+        "name": "F. Burton Howard",
+        "speaker_url": "https://speeches.byu.edu/speakers/f-burton-howard/"
+    },
+    {
+        "name": "Howard W. Hunter",
+        "speaker_url": "https://speeches.byu.edu/speakers/howard-w-hunter/"
+    },
+    {
+        "name": "Milton R. Hunter",
+        "speaker_url": "https://speeches.byu.edu/speakers/milton-r-hunter/"
+    },
+    {
+        "name": "Elaine L. Jack",
+        "speaker_url": "https://speeches.byu.edu/speakers/elaine-l-jack/"
+    },
+    {
+        "name": "Jacob de Jager",
+        "speaker_url": "https://speeches.byu.edu/speakers/jacob-de-jager/"
+    },
+    {
+        "name": "Jay E. Jensen",
+        "speaker_url": "https://speeches.byu.edu/speakers/jay-e-jensen/"
+    },
+    {
+        "name": "Marlin K. Jensen",
+        "speaker_url": "https://speeches.byu.edu/speakers/marlin-k-jensen/"
+    },
+    {
+        "name": "Camille N. Johnson",
+        "speaker_url": "https://speeches.byu.edu/speakers/camille-n-johnson/"
+    },
+    {
+        "name": "Kelly R. Johnson",
+        "speaker_url": "https://speeches.byu.edu/speakers/kelly-r-johnson/"
+    },
+    {
+        "name": "Paul V. Johnson",
+        "speaker_url": "https://speeches.byu.edu/speakers/paul-v-johnson/"
+    },
+    {
+        "name": "Peter M. Johnson",
+        "speaker_url": "https://speeches.byu.edu/speakers/peter-m-johnson/"
+    },
+    {
+        "name": "Joy D. Jones",
+        "speaker_url": "https://speeches.byu.edu/speakers/joy-d-jones/"
+    },
+    {
+        "name": "Daniel K Judd",
+        "speaker_url": "https://speeches.byu.edu/speakers/daniel-k-judd/"
+    },
+    {
+        "name": "Ardeth G. Kapp",
+        "speaker_url": "https://speeches.byu.edu/speakers/ardeth-g-kapp/"
+    },
+    {
+        "name": "Patrick Kearon",
+        "speaker_url": "https://speeches.byu.edu/speakers/patrick-kearon/"
+    },
+    {
+        "name": "L. Lionel Kendrick",
+        "speaker_url": "https://speeches.byu.edu/speakers/l-lionel-kendrick/"
+    },
+    {
+        "name": "W. Rolfe Kerr",
+        "speaker_url": "https://speeches.byu.edu/speakers/w-rolfe-kerr/"
+    },
+    {
+        "name": "Yoshihiko Kikuchi",
+        "speaker_url": "https://speeches.byu.edu/speakers/yoshihiko-kikuchi/"
+    },
+    {
+        "name": "Spencer W. Kimball",
+        "speaker_url": "https://speeches.byu.edu/speakers/spencer-w-kimball/"
+    },
+    {
+        "name": "J\u00f6rg Klebingat",
+        "speaker_url": "https://speeches.byu.edu/speakers/jorg-klebingat/"
+    },
+    {
+        "name": "Adney Y. Komatsu",
+        "speaker_url": "https://speeches.byu.edu/speakers/adney-y-komatsu/"
+    },
+    {
+        "name": "Erich W. Kopischke",
+        "speaker_url": "https://speeches.byu.edu/speakers/erich-w-kopischke/"
+    },
+    {
+        "name": "Cheryl C. Lant",
+        "speaker_url": "https://speeches.byu.edu/speakers/cheryl-c-lant/"
+    },
+    {
+        "name": "Dean L. Larsen",
+        "speaker_url": "https://speeches.byu.edu/speakers/dean-l-larsen/"
+    },
+    {
+        "name": "Larry R. Lawrence",
+        "speaker_url": "https://speeches.byu.edu/speakers/larry-r-lawrence/"
+    },
+    {
+        "name": "W. Mack Lawrence",
+        "speaker_url": "https://speeches.byu.edu/speakers/w-mack-lawrence/"
+    },
+    {
+        "name": "George P. Lee",
+        "speaker_url": "https://speeches.byu.edu/speakers/george-p-lee/"
+    },
+    {
+        "name": "Harold B. Lee",
+        "speaker_url": "https://speeches.byu.edu/speakers/harold-b-lee/"
+    },
+    {
+        "name": "Gerald N. Lund",
+        "speaker_url": "https://speeches.byu.edu/speakers/gerald-n-lund/"
+    },
+    {
+        "name": "Steven J. Lund",
+        "speaker_url": "https://speeches.byu.edu/speakers/steven-j-lund/"
+    },
+    {
+        "name": "Neill F. Marriott",
+        "speaker_url": "https://speeches.byu.edu/speakers/neill-f-marriott/"
+    },
+    {
+        "name": "James B. Martino",
+        "speaker_url": "https://speeches.byu.edu/speakers/james-b-martino/"
+    },
+    {
+        "name": "James O. Mason",
+        "speaker_url": "https://speeches.byu.edu/speakers/james-o-mason/"
+    },
+    {
+        "name": "Neal A. Maxwell",
+        "speaker_url": "https://speeches.byu.edu/speakers/neal-a-maxwell/"
+    },
+    {
+        "name": "Richard J. Maynes",
+        "speaker_url": "https://speeches.byu.edu/speakers/richard-j-maynes/"
+    },
+    {
+        "name": "Bruce R. McConkie",
+        "speaker_url": "https://speeches.byu.edu/speakers/bruce-r-mcconkie/"
+    },
+    {
+        "name": "Kyle S. McKay",
+        "speaker_url": "https://speeches.byu.edu/speakers/kyle-s-mckay/"
+    },
+    {
+        "name": "Keith B. McMullin",
+        "speaker_url": "https://speeches.byu.edu/speakers/keith-b-mcmullin/"
+    },
+    {
+        "name": "Lynn A. Mickelsen",
+        "speaker_url": "https://speeches.byu.edu/speakers/lynn-a-mickelsen/"
+    },
+    {
+        "name": "Dale E. Miller",
+        "speaker_url": "https://speeches.byu.edu/speakers/dale-e-miller/"
+    },
+    {
+        "name": "Thomas S. Monson",
+        "speaker_url": "https://speeches.byu.edu/speakers/thomas-s-monson/"
+    },
+    {
+        "name": "Alexander B. Morrison",
+        "speaker_url": "https://speeches.byu.edu/speakers/alexander-b-morrison/"
+    },
+    {
+        "name": "Margaret D. Nadauld",
+        "speaker_url": "https://speeches.byu.edu/speakers/margaret-d-nadauld/"
+    },
+    {
+        "name": "Stephen D. Nadauld",
+        "speaker_url": "https://speeches.byu.edu/speakers/stephen-d-nadauld/"
+    },
+    {
+        "name": "Marcus B. Nash",
+        "speaker_url": "https://speeches.byu.edu/speakers/marcus-b-nash/"
+    },
+    {
+        "name": "K. Brett Nattress",
+        "speaker_url": "https://speeches.byu.edu/speakers/k-brett-nattress/"
+    },
+    {
+        "name": "Russell M. Nelson",
+        "speaker_url": "https://speeches.byu.edu/speakers/russell-m-nelson/"
+    },
+    {
+        "name": "Dennis B. Neuenschwander",
+        "speaker_url": "https://speeches.byu.edu/speakers/dennis-b-neuenschwander/"
+    },
+    {
+        "name": "Jan E. Newman",
+        "speaker_url": "https://speeches.byu.edu/speakers/jan-e-newman/"
+    },
+    {
+        "name": "S. Gifford Nielsen",
+        "speaker_url": "https://speeches.byu.edu/speakers/s-gifford-nielsen/"
+    },
+    {
+        "name": "Brent H. Nielson",
+        "speaker_url": "https://speeches.byu.edu/speakers/brent-h-nielson/"
+    },
+    {
+        "name": "Dallin H. Oaks",
+        "speaker_url": "https://speeches.byu.edu/speakers/dallin-h-oaks/"
+    },
+    {
+        "name": "Robert C. Oaks",
+        "speaker_url": "https://speeches.byu.edu/speakers/robert-c-oaks/"
+    },
+    {
+        "name": "Bonnie L. Oscarson",
+        "speaker_url": "https://speeches.byu.edu/speakers/bonnie-l-oscarson/"
+    },
+    {
+        "name": "Russell T. Osguthorpe",
+        "speaker_url": "https://speeches.byu.edu/speakers/russell-t-osguthorpe/"
+    },
+    {
+        "name": "Stephen W. Owen",
+        "speaker_url": "https://speeches.byu.edu/speakers/stephen-w-owen/"
+    },
+    {
+        "name": "Glenn L. Pace",
+        "speaker_url": "https://speeches.byu.edu/speakers/glenn-l-pace/"
+    },
+    {
+        "name": "Mark L. Pace",
+        "speaker_url": "https://speeches.byu.edu/speakers/mark-l-pace/"
+    },
+    {
+        "name": "Allan F. Packer",
+        "speaker_url": "https://speeches.byu.edu/speakers/allan-f-packer/"
+    },
+    {
+        "name": "Boyd K. Packer",
+        "speaker_url": "https://speeches.byu.edu/speakers/boyd-k-packer/"
+    },
+    {
+        "name": "S. Mark Palmer",
+        "speaker_url": "https://speeches.byu.edu/speakers/s-mark-palmer/"
+    },
+    {
+        "name": "James M. Paramore",
+        "speaker_url": "https://speeches.byu.edu/speakers/james-m-paramore/"
+    },
+    {
+        "name": "Bonnie D. Parkin",
+        "speaker_url": "https://speeches.byu.edu/speakers/bonnie-d-parkin/"
+    },
+    {
+        "name": "Anthony D. Perkins",
+        "speaker_url": "https://speeches.byu.edu/speakers/anthony-d-perkins/"
+    },
+    {
+        "name": "L. Tom Perry",
+        "speaker_url": "https://speeches.byu.edu/speakers/l-tom-perry/"
+    },
+    {
+        "name": "Mark E. Petersen",
+        "speaker_url": "https://speeches.byu.edu/speakers/mark-e-petersen/"
+    },
+    {
+        "name": "H. Burke Peterson",
+        "speaker_url": "https://speeches.byu.edu/speakers/h-burke-peterson/"
+    },
+    {
+        "name": "Paul B. Pieper",
+        "speaker_url": "https://speeches.byu.edu/speakers/paul-b-pieper/"
+    },
+    {
+        "name": "Patricia P. Pinegar",
+        "speaker_url": "https://speeches.byu.edu/speakers/patricia-p-pinegar/"
+    },
+    {
+        "name": "Rex D. Pinegar",
+        "speaker_url": "https://speeches.byu.edu/speakers/rex-d-pinegar/"
+    },
+    {
+        "name": "Hugh W. Pinnock",
+        "speaker_url": "https://speeches.byu.edu/speakers/hugh-w-pinnock/"
+    },
+    {
+        "name": "Ronald E. Poelman",
+        "speaker_url": "https://speeches.byu.edu/speakers/ronald-e-poelman/"
+    },
+    {
+        "name": "Bruce D. Porter",
+        "speaker_url": "https://speeches.byu.edu/speakers/bruce-d-porter/"
+    },
+    {
+        "name": "L. Aldin Porter",
+        "speaker_url": "https://speeches.byu.edu/speakers/l-aldin-porter/"
+    },
+    {
+        "name": "Susan H. Porter",
+        "speaker_url": "https://speeches.byu.edu/speakers/susan-h-porter/"
+    },
+    {
+        "name": "James R. Rasband",
+        "speaker_url": "https://speeches.byu.edu/speakers/james-r-rasband/"
+    },
+    {
+        "name": "Ronald A. Rasband",
+        "speaker_url": "https://speeches.byu.edu/speakers/ronald-a-rasband/"
+    },
+    {
+        "name": "Rex C. Reeve",
+        "speaker_url": "https://speeches.byu.edu/speakers/rex-c-reeve-sr/"
+    },
+    {
+        "name": "Dale G. Renlund",
+        "speaker_url": "https://speeches.byu.edu/speakers/dale-g-renlund/"
+    },
+    {
+        "name": "Franklin D. Richards",
+        "speaker_url": "https://speeches.byu.edu/speakers/franklin-d-richards/"
+    },
+    {
+        "name": "Kent F. Richards",
+        "speaker_url": "https://speeches.byu.edu/speakers/kent-f-richards/"
+    },
+    {
+        "name": "LeGrand Richards",
+        "speaker_url": "https://speeches.byu.edu/speakers/legrand-richards/"
+    },
+    {
+        "name": "Matthew O. Richardson",
+        "speaker_url": "https://speeches.byu.edu/speakers/matthew-o-richardson/"
+    },
+    {
+        "name": "Michael T. Ringwood",
+        "speaker_url": "https://speeches.byu.edu/speakers/michael-t-ringwood/"
+    },
+    {
+        "name": "Lynn G. Robbins",
+        "speaker_url": "https://speeches.byu.edu/speakers/lynn-g-robbins/"
+    },
+    {
+        "name": "Marion G. Romney",
+        "speaker_url": "https://speeches.byu.edu/speakers/marion-g-romney/"
+    },
+    {
+        "name": "Glen L. Rudd",
+        "speaker_url": "https://speeches.byu.edu/speakers/glen-l-rudd/"
+    },
+    {
+        "name": "Gary B. Sabin",
+        "speaker_url": "https://speeches.byu.edu/speakers/gary-b-sabin/"
+    },
+    {
+        "name": "Evan A. Schmutz",
+        "speaker_url": "https://speeches.byu.edu/speakers/evan-a-schmutz/"
+    },
+    {
+        "name": "Richard G. Scott",
+        "speaker_url": "https://speeches.byu.edu/speakers/richard-g-scott/"
+    },
+    {
+        "name": "Sterling W. Sill",
+        "speaker_url": "https://speeches.byu.edu/speakers/sterling-w-sill/"
+    },
+    {
+        "name": "Robert L. Simpson",
+        "speaker_url": "https://speeches.byu.edu/speakers/robert-l-simpson/"
+    },
+    {
+        "name": "Barbara B. Smith",
+        "speaker_url": "https://speeches.byu.edu/speakers/barbara-b-smith/"
+    },
+    {
+        "name": "Joseph Fielding Smith",
+        "speaker_url": "https://speeches.byu.edu/speakers/joseph-fielding-smith/"
+    },
+    {
+        "name": "Steven E. Snow",
+        "speaker_url": "https://speeches.byu.edu/speakers/steven-e-snow/"
+    },
+    {
+        "name": "Ulisses Soares",
+        "speaker_url": "https://speeches.byu.edu/speakers/ulisses-soares/"
+    },
+    {
+        "name": "John Sonnenberg",
+        "speaker_url": "https://speeches.byu.edu/speakers/john-sonnenberg/"
+    },
+    {
+        "name": "Philip T. Sonntag",
+        "speaker_url": "https://speeches.byu.edu/speakers/philip-t-sonntag/"
+    },
+    {
+        "name": "David E. Sorensen",
+        "speaker_url": "https://speeches.byu.edu/speakers/david-e-sorensen/"
+    },
+    {
+        "name": "Donald L. Staheli",
+        "speaker_url": "https://speeches.byu.edu/speakers/donald-l-staheli/"
+    },
+    {
+        "name": "Vern P. Stanfill",
+        "speaker_url": "https://speeches.byu.edu/speakers/vern-p-stanfill/"
+    },
+    {
+        "name": "Delbert L. Stapley",
+        "speaker_url": "https://speeches.byu.edu/speakers/delbert-l-stapley/"
+    },
+    {
+        "name": "Robert R. Steuer",
+        "speaker_url": "https://speeches.byu.edu/speakers/robert-r-steuer/"
+    },
+    {
+        "name": "Gary E. Stevenson",
+        "speaker_url": "https://speeches.byu.edu/speakers/gary-e-stevenson/"
+    },
+    {
+        "name": "O. Leslie Stone",
+        "speaker_url": "https://speeches.byu.edu/speakers/o-leslie-stone/"
+    },
+    {
+        "name": "N. Eldon Tanner",
+        "speaker_url": "https://speeches.byu.edu/speakers/n-eldon-tanner/"
+    },
+    {
+        "name": "Susan W. Tanner",
+        "speaker_url": "https://speeches.byu.edu/speakers/susan-w-tanner/"
+    },
+    {
+        "name": "Brian K. Taylor",
+        "speaker_url": "https://speeches.byu.edu/speakers/brian-k-taylor/"
+    },
+    {
+        "name": "Russell C. Taylor",
+        "speaker_url": "https://speeches.byu.edu/speakers/russell-c-taylor/"
+    },
+    {
+        "name": "Jos\u00e9 A. Teixeira",
+        "speaker_url": "https://speeches.byu.edu/speakers/jose-a-teixeira/"
+    },
+    {
+        "name": "Earl C. Tingey",
+        "speaker_url": "https://speeches.byu.edu/speakers/earl-c-tingey/"
+    },
+    {
+        "name": "A. Theodore Tuttle",
+        "speaker_url": "https://speeches.byu.edu/speakers/theodore-a-tuttle/"
+    },
+    {
+        "name": "Dieter F. Uchtdorf",
+        "speaker_url": "https://speeches.byu.edu/speakers/dieter-f-uchtdorf/"
+    },
+    {
+        "name": "John H. Vandenberg",
+        "speaker_url": "https://speeches.byu.edu/speakers/john-h-vandenberg/"
+    },
+    {
+        "name": "Terence M. Vinson",
+        "speaker_url": "https://speeches.byu.edu/speakers/terence-m-vinson/"
+    },
+    {
+        "name": "Takashi Wada",
+        "speaker_url": "https://speeches.byu.edu/speakers/takashi-wada/"
+    },
+    {
+        "name": "W. Christopher Waddell",
+        "speaker_url": "https://speeches.byu.edu/speakers/w-christopher-waddell/"
+    },
+    {
+        "name": "Robert E. Wells",
+        "speaker_url": "https://speeches.byu.edu/speakers/robert-e-wells/"
+    },
+    {
+        "name": "Scott D. Whiting",
+        "speaker_url": "https://speeches.byu.edu/speakers/scott-d-whiting/"
+    },
+    {
+        "name": "Lance B. Wickman",
+        "speaker_url": "https://speeches.byu.edu/speakers/lance-b-wickman/"
+    },
+    {
+        "name": "Keith W. Wilcox",
+        "speaker_url": "https://speeches.byu.edu/speakers/keith-w-wilcox/"
+    },
+    {
+        "name": "Larry Y. Wilson",
+        "speaker_url": "https://speeches.byu.edu/speakers/larry-y-wilson/"
+    },
+    {
+        "name": "Barbara W. Winder",
+        "speaker_url": "https://speeches.byu.edu/speakers/barbara-w-winder/"
+    },
+    {
+        "name": "Joseph B. Wirthlin",
+        "speaker_url": "https://speeches.byu.edu/speakers/joseph-b-wirthlin/"
+    },
+    {
+        "name": "Rosemary M. Wixom",
+        "speaker_url": "https://speeches.byu.edu/speakers/rosemary-m-wixom/"
+    },
+    {
+        "name": "Amy A. Wright",
+        "speaker_url": "https://speeches.byu.edu/speakers/amy-a-wright/"
+    },
+    {
+        "name": "Kristin M. Yee",
+        "speaker_url": "https://speeches.byu.edu/speakers/kristin-m-yee/"
+    },
+    {
+        "name": "Dwan J. Young",
+        "speaker_url": "https://speeches.byu.edu/speakers/dwan-j-young/"
+    },
+    {
+        "name": "S. Dilworth Young",
+        "speaker_url": "https://speeches.byu.edu/speakers/s-dilworth-young/"
+    },
+    {
+        "name": "Adam S. Bennion",
+        "speaker_url": "https://speeches.byu.edu/speakers/adam-s-bennion/"
+    },
+    {
+        "name": "Albert E. Bowen",
+        "speaker_url": "https://speeches.byu.edu/speakers/albert-e-bowen/"
+    },
+    {
+        "name": "Matthew Cowley",
+        "speaker_url": "https://speeches.byu.edu/speakers/matthew-cowley/"
+    },
+    {
+        "name": "Jeffrey R. and Patricia T. Holland",
+        "speaker_url": "https://speeches.byu.edu/speakers/jeffrey-r-and-patricia-t-holland/"
+    },
+    {
+        "name": "George Q. Morris",
+        "speaker_url": "https://speeches.byu.edu/speakers/george-q-morris/"
+    },
+    {
+        "name": "Henry D. Moyle",
+        "speaker_url": "https://speeches.byu.edu/speakers/henry-d-moyle/"
+    },
+    {
+        "name": "John A. Widtsoe",
+        "speaker_url": "https://speeches.byu.edu/speakers/john-a-widtsoe/"
+    },
+    {
+        "name": "David O. McKay",
+        "speaker_url": "https://speeches.byu.edu/speakers/david-o-mckay/"
+    },
+    {
+        "name": "George Albert Smith",
+        "speaker_url": "https://speeches.byu.edu/speakers/george-albert-smith/"
+    }
+]
