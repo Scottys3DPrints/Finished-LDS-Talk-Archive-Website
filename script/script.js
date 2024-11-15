@@ -130,12 +130,14 @@ function loadAlphabeticalMembers() {
 // Function to load and display prophets from the JSON file
 function loadProphets() {
     isAlphabeticalPage = false; // Set the flag to false
-    fetch('json/presidents_w_imgs.json')
+    fetch('json/ap_pr_w_talks.json') // This loads the prophets and apostles data
         .then(response => response.json())
         .then(data => {
-            membersData = data; // Store all members data for searching
-            displayMembers(data, true);
-            removePagination();
+            membersData = data.sort((a, b) => {
+                return a.name.toLowerCase().localeCompare(b.name.toLowerCase()); // Sort alphabetically by name
+            }); // Sorting the data alphabetically by name
+            displayMembers(data, true); // Display the members in the talks container
+            removePagination(); // Remove pagination if it's not needed
         })
         .catch(error => console.error('Error loading prophets:', error));
 }
@@ -215,7 +217,6 @@ function displayMembers(members, showImages) {
         speakerInfo.className = 'flex_column flex_speaker grid_talk_a1';
         speakerInfo.innerHTML = `
             <h3>${member.name}</h3>
-            <p>Position</p>
         `;
 
         talkCard.appendChild(speakerInfo);

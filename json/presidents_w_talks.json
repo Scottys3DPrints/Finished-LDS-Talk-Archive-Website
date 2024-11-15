@@ -1,0 +1,52 @@
+[
+    {
+        "name": "George Albert Smith",
+        "general_conference_talks": "-",
+        "byu_talks": 1
+    },
+    {
+        "name": "David O. McKay",
+        "general_conference_talks": "-",
+        "byu_talks": 9
+    },
+    {
+        "name": "Joseph Fielding Smith",
+        "general_conference_talks": 9,
+        "byu_talks": 25
+    },
+    {
+        "name": "Harold B. Lee",
+        "general_conference_talks": 17,
+        "byu_talks": 20
+    },
+    {
+        "name": "Spencer W. Kimball",
+        "general_conference_talks": 75,
+        "byu_talks": 23
+    },
+    {
+        "name": "Ezra Taft Benson",
+        "general_conference_talks": 63,
+        "byu_talks": 25
+    },
+    {
+        "name": "Howard W. Hunter",
+        "general_conference_talks": 51,
+        "byu_talks": 10
+    },
+    {
+        "name": "Gordon B. Hinckley",
+        "general_conference_talks": 232,
+        "byu_talks": 40
+    },
+    {
+        "name": "Thomas S. Monson",
+        "general_conference_talks": 234,
+        "byu_talks": 11
+    },
+    {
+        "name": "Russell M. Nelson",
+        "general_conference_talks": 113,
+        "byu_talks": 23
+    }
+]
