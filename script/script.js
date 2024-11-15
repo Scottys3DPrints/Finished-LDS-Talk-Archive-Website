@@ -130,7 +130,7 @@ function loadAlphabeticalMembers() {
 // Function to load and display prophets from the JSON file
 function loadProphets() {
     isAlphabeticalPage = false; // Set the flag to false
-    fetch('json/ap_pr_w_talks.json') // This loads the prophets and apostles data
+    fetch('json/ap_pr_w_talks_with_images.json') // This loads the prophets and apostles data
         .then(response => response.json())
         .then(data => {
             membersData = data.sort((a, b) => {
