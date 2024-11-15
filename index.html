@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
+
 <body>
+
     <header>
         <img src="images/moroni-icon1.png" alt="LDS Talks Archive Icon">
         <h1>LDS Talks Archive</h1>
@@ -35,8 +38,38 @@
                     <button id="popular-button">Prophets</button>
                 </div>
 
-                <div class="talks-container" id="talks-container"></div>
-                <div id="pagination-container"></div> 
+                <div class="talks-container" id="talks-container">
+                    <!-- Talk Card Template -->
+                    <div class="talk-card grid_talk_card">
+                        <div class="flex_row">
+                            <img src="" alt="Jeffrey R. Holland" class="ga_img">
+                            <div class="flex_column flex_speaker">
+                                <h3>Speaker</h3>
+                                <p>Position</p>
+                            </div>
+                        </div>
+                        <div class="flex_column flex_gc_byu">
+                            <h4>General Conference</h4>
+                            <p>Amount</p>
+                        </div>
+                        <div class="flex_column flex_gc_byu">
+                            <h4>BYU</h4>
+                            <p>Amount</p>
+                        </div>
+                        <div class="flex_column flex_download">
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="gc_download">
+                                <label for="gc_download">Download General Conference</label>
+                            </div>
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="byu_download">
+                                <label for="byu_download">Download BYU</label>
+                            </div>
+                            <button class="download-button">Download</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="pagination-container"></div>
             </div>
 
             <div class="main_container">
@@ -47,8 +80,9 @@
                         but it was annoying to have to click through every single one, download them individually, and then 
                         sort them all. My dad came up with the idea of using a program to automate it, and when I needed 
                         a project for work to practice my programming skills, this seemed like the perfect fit. Now, you 
-                        can easily pick either BYU talks or General Conference talks or both and download them all in one go by 
-                        clicking the Download button.</p>
+                        can easily pick either BYU talks or General Conference talks or both, for the General Conference talks it
+                        will automatically download all of them and for the BYU talks it will redirect you to the speakers page where you
+                        can easily download all of them.</p>
                 </div>
             </div>
         </div>
@@ -59,5 +93,7 @@
     </footer>
 
     <script src="script/script.js"></script>
+
 </body>
+
 </html>
