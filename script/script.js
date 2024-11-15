@@ -162,6 +162,8 @@ function createPaginationControls(totalPages) {
     if (currentPage > 1) {
         const prevButton = document.createElement('button');
         prevButton.textContent = 'Previous';
+        prevButton.classList.add('pagination-button'); // Add class
+
         prevButton.addEventListener('click', () => {
             currentPage--;
             displayPaginatedMembers();
@@ -172,6 +174,8 @@ function createPaginationControls(totalPages) {
     if (currentPage < totalPages) {
         const nextButton = document.createElement('button');
         nextButton.textContent = 'Next';
+        nextButton.classList.add('pagination-button'); // Add class
+
         nextButton.addEventListener('click', () => {
             currentPage++;
             displayPaginatedMembers();
