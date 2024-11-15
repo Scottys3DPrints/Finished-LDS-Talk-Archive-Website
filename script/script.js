@@ -2,6 +2,7 @@
 let currentPage = 1;
 const itemsPerPage = 15;
 let membersData = []; // Stores all members data for searching and pagination
+let isAlphabeticalPage = false; // Flag to check if the alphabetical page is active
 
 // Function to handle download when the button is clicked
 function handleDownloadClick(event) {
@@ -98,6 +99,7 @@ function triggerDownload(links) {
 
 // Function to load "Current" members from the JSON file
 function loadCurrentMembers() {
+    isAlphabeticalPage = false; // Set the flag to false
     fetch('json/current_with_byu.json')
         .then(response => response.json())
         .then(data => {
@@ -110,6 +112,7 @@ function loadCurrentMembers() {
 
 // Function to load and sort all General Authorities alphabetically by last name, with pagination
 function loadAlphabeticalMembers() {
+    isAlphabeticalPage = true; // Set the flag to true
     fetch('json/all2_GAs+ap+pr_with_BYU.json')
         .then(response => response.json())
         .then(data => {
@@ -126,6 +129,7 @@ function loadAlphabeticalMembers() {
 
 // Function to load and display prophets from the JSON file
 function loadProphets() {
+    isAlphabeticalPage = false; // Set the flag to false
     fetch('json/presidents_w_imgs.json')
         .then(response => response.json())
         .then(data => {
@@ -195,7 +199,7 @@ function displayMembers(members, showImages) {
         const talkCard = document.createElement('div');
         talkCard.className = 'talk-card grid_talk_card';
 
-        if (showImages) {
+        if (showImages && !isAlphabeticalPage) { // Ensure images are never shown on the alphabetical page
             const img = document.createElement('img');
             img.src = member.image || '';
             img.alt = member.name;
@@ -259,7 +263,8 @@ function searchTalks() {
         member.name.toLowerCase().includes(searchInput)
     );
 
-    displayMembers(filteredMembers, true);
+    // Never show images on the alphabetical page, even during a search
+    displayMembers(filteredMembers, !isAlphabeticalPage);
 }
 
 // Event listeners for buttons
