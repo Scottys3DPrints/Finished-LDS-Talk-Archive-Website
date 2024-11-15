@@ -1,8 +1,6 @@
 // Variables for pagination
 let currentPage = 1;
 const itemsPerPage = 15;
-let totalPages = 0;
-let allData = [];
 
 // Function to handle download when the button is clicked
 function handleDownloadClick(event) {
@@ -119,25 +117,37 @@ function loadAlphabeticalMembers() {
                 return lastNameA.localeCompare(lastNameB);
             });
 
-            allData = data; // Store all data
-            totalPages = Math.ceil(allData.length / itemsPerPage);
-            displayPaginatedMembers();
+            displayPaginatedMembers(data);
         })
         .catch(error => console.error('Error loading all General Authorities:', error));
 }
 
+// Function to load and display prophets from the JSON file
+function loadProphets() {
+    fetch('json/presidents_w_imgs.json')
+        .then(response => response.json())
+        .then(data => {
+            displayMembers(data, true);
+            removePagination();
+        })
+        .catch(error => console.error('Error loading prophets:', error));
+}
+
 // Function to display members with pagination for the "Alphabetical" button only
-function displayPaginatedMembers() {
+function displayPaginatedMembers(members) {
+    const totalPages = Math.ceil(members.length / itemsPerPage);
+
+    // Get the current page's members
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    const currentMembers = allData.slice(startIndex, endIndex);
+    const currentMembers = members.slice(startIndex, endIndex);
 
     displayMembers(currentMembers, false);
-    createPaginationControls();
+    createPaginationControls(totalPages);
 }
 
 // Function to create pagination controls
-function createPaginationControls() {
+function createPaginationControls(totalPages) {
     const paginationContainer = document.getElementById('pagination-container') || document.createElement('div');
     paginationContainer.id = 'pagination-container';
     paginationContainer.innerHTML = '';
@@ -261,4 +271,6 @@ document.getElementById('popular-button').addEventListener('click', loadProphets
 document.getElementById('search-input').addEventListener('input', searchTalks);
 
 // Load "Current" members by default when the page is loaded
-document.addEventListener('DOMContentLoaded', loadCurrentMembers);
+document.addEventListener('DOMContentLoaded', () => {
+    loadCurrentMembers(); // Ensure "Current" members are loaded when the page loads
+});
