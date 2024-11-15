@@ -1,6 +1,7 @@
 // Variables for pagination
 let currentPage = 1;
 const itemsPerPage = 15;
+let membersData = []; // Stores all members data for searching and pagination
 
 // Function to handle download when the button is clicked
 function handleDownloadClick(event) {
@@ -100,6 +101,7 @@ function loadCurrentMembers() {
     fetch('json/current_with_byu.json')
         .then(response => response.json())
         .then(data => {
+            membersData = data; // Store all members data for searching
             displayMembers(data, true);
             removePagination();
         })
@@ -111,24 +113,23 @@ function loadAlphabeticalMembers() {
     fetch('json/all2_GAs+ap+pr_with_BYU.json')
         .then(response => response.json())
         .then(data => {
-            data.sort((a, b) => {
+            membersData = data.sort((a, b) => {
                 const lastNameA = a.name.split(" ").pop().toLowerCase();
                 const lastNameB = b.name.split(" ").pop().toLowerCase();
                 return lastNameA.localeCompare(lastNameB);
             });
 
-            // If the data is too large, load it in chunks
-            displayPaginatedMembers(data);
+            displayPaginatedMembers();
         })
         .catch(error => console.error('Error loading all General Authorities:', error));
 }
-
 
 // Function to load and display prophets from the JSON file
 function loadProphets() {
     fetch('json/presidents_w_imgs.json')
         .then(response => response.json())
         .then(data => {
+            membersData = data; // Store all members data for searching
             displayMembers(data, true);
             removePagination();
         })
@@ -136,13 +137,13 @@ function loadProphets() {
 }
 
 // Function to display members with pagination for the "Alphabetical" button only
-function displayPaginatedMembers(members) {
-    const totalPages = Math.ceil(members.length / itemsPerPage);
+function displayPaginatedMembers() {
+    const totalPages = Math.ceil(membersData.length / itemsPerPage);
 
     // Get the current page's members
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    const currentMembers = members.slice(startIndex, endIndex);
+    const currentMembers = membersData.slice(startIndex, endIndex);
 
     displayMembers(currentMembers, false);
     createPaginationControls(totalPages);
@@ -254,16 +255,11 @@ function displayMembers(members, showImages) {
 // Search function to filter members based on the input text
 function searchTalks() {
     const searchInput = document.getElementById('search-input').value.toLowerCase();
-    const talks = document.querySelectorAll('.talk-card');
+    const filteredMembers = membersData.filter(member =>
+        member.name.toLowerCase().includes(searchInput)
+    );
 
-    talks.forEach(talk => {
-        const name = talk.querySelector('h3').textContent.toLowerCase();
-        if (name.includes(searchInput)) {
-            talk.style.display = 'flex';
-        } else {
-            talk.style.display = 'none';
-        }
-    });
+    displayMembers(filteredMembers, true);
 }
 
 // Event listeners for buttons
