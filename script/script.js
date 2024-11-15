@@ -117,10 +117,12 @@ function loadAlphabeticalMembers() {
                 return lastNameA.localeCompare(lastNameB);
             });
 
+            // If the data is too large, load it in chunks
             displayPaginatedMembers(data);
         })
         .catch(error => console.error('Error loading all General Authorities:', error));
 }
+
 
 // Function to load and display prophets from the JSON file
 function loadProphets() {
