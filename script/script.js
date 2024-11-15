@@ -108,7 +108,7 @@ function loadCurrentMembers() {
 
 // Function to load and sort all General Authorities alphabetically by last name, with pagination
 function loadAlphabeticalMembers() {
-    fetch('json/___all2_GAs+ap+pr_with_BYU.json')
+    fetch('json/all2_GAs+ap+pr_with_BYU.json')
         .then(response => response.json())
         .then(data => {
             data.sort((a, b) => {
