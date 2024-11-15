@@ -1,6 +1,8 @@
 // Variables for pagination
 let currentPage = 1;
 const itemsPerPage = 15;
+let totalPages = 0;
+let allData = [];
 
 // Function to handle download when the button is clicked
 function handleDownloadClick(event) {
@@ -101,6 +103,7 @@ function loadCurrentMembers() {
         .then(response => response.json())
         .then(data => {
             displayMembers(data, true);
+            removePagination();
         })
         .catch(error => console.error('Error loading current members:', error));
 }
@@ -115,23 +118,26 @@ function loadAlphabeticalMembers() {
                 const lastNameB = b.name.split(" ").pop().toLowerCase();
                 return lastNameA.localeCompare(lastNameB);
             });
-            displayPaginatedMembers(data);
+
+            allData = data; // Store all data
+            totalPages = Math.ceil(allData.length / itemsPerPage);
+            displayPaginatedMembers();
         })
         .catch(error => console.error('Error loading all General Authorities:', error));
 }
 
-// Function to display members with pagination
-function displayPaginatedMembers(members) {
-    const totalPages = Math.ceil(members.length / itemsPerPage);
-
-    // Get the current page's members
+// Function to display members with pagination for the "Alphabetical" button only
+function displayPaginatedMembers() {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    const currentMembers = members.slice(startIndex, endIndex);
+    const currentMembers = allData.slice(startIndex, endIndex);
 
     displayMembers(currentMembers, false);
+    createPaginationControls();
+}
 
-    // Create pagination controls
+// Function to create pagination controls
+function createPaginationControls() {
     const paginationContainer = document.getElementById('pagination-container') || document.createElement('div');
     paginationContainer.id = 'pagination-container';
     paginationContainer.innerHTML = '';
@@ -141,7 +147,7 @@ function displayPaginatedMembers(members) {
         prevButton.textContent = 'Previous';
         prevButton.addEventListener('click', () => {
             currentPage--;
-            displayPaginatedMembers(members);
+            displayPaginatedMembers();
         });
         paginationContainer.appendChild(prevButton);
     }
@@ -151,7 +157,7 @@ function displayPaginatedMembers(members) {
         nextButton.textContent = 'Next';
         nextButton.addEventListener('click', () => {
             currentPage++;
-            displayPaginatedMembers(members);
+            displayPaginatedMembers();
         });
         paginationContainer.appendChild(nextButton);
     }
@@ -159,14 +165,12 @@ function displayPaginatedMembers(members) {
     document.querySelector('.main_container').appendChild(paginationContainer);
 }
 
-// Function to load and display prophets from the JSON file
-function loadProphets() {
-    fetch('json/presidents_w_imgs.json')
-        .then(response => response.json())
-        .then(data => {
-            displayMembers(data, true);
-        })
-        .catch(error => console.error('Error loading prophets:', error));
+// Function to remove pagination controls
+function removePagination() {
+    const paginationContainer = document.getElementById('pagination-container');
+    if (paginationContainer) {
+        paginationContainer.remove();
+    }
 }
 
 // Function to display members on the page
@@ -258,17 +262,3 @@ document.getElementById('search-input').addEventListener('input', searchTalks);
 
 // Load "Current" members by default when the page is loaded
 document.addEventListener('DOMContentLoaded', loadCurrentMembers);
-
-// Test Button for Simple Debugging
-document.getElementById('test-button').addEventListener('click', () => {
-    fetch('http://127.0.0.1:5000/download', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ name: "Test Name" })
-    })
-    .then(response => response.json())
-    .then(data => console.log("Test Server response:", data))
-    .catch(error => console.error('Error:', error));
-});
